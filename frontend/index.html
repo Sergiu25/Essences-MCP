@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume Reviews - MCP Platform</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">✨ Essences</div>
+        <p>Your premium perfume review platform</p>
+    </header>
+
+    <main class="container">
+        <section class="chat-section">
+            <h2>Ask about our perfumes</h2>
+            <div class="chat-box" id="resultBox">
+                <div class="placeholder">How can I help you today? E.g., "What are the reviews for Dior perfumes?" or "Show me highly rated unisex perfumes."</div>
+            </div>
+            
+            <form id="chatForm">
+                <input type="text" id="userInput" placeholder="Ask a natural language query..." required />
+                <button type="submit" id="sendBtn">
+                    <span>Send</span>
+                </button>
+            </form>
+        </section>
+
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

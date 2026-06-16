@@ -1,0 +1,83 @@
+@prefix schema: <http://schema.org/> .
+@prefix ex: <http://example.org/perfume/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:p1 a schema:Product ;
+    schema:name "Aventus" ;
+    schema:brand "Creed" ;
+    schema:category "Men" ;
+    schema:description "A fruity and rich fragrance." ;
+    schema:review ex:r1 .
+
+ex:r1 a schema:Review ;
+    schema:author [ a schema:Person ; schema:name "David M." ] ;
+    schema:reviewRating [ 
+        a schema:Rating ; 
+        schema:ratingValue "4.9"^^xsd:decimal 
+    ] ;
+    schema:reviewBody "The king of men's fragrances!" ;
+    schema:datePublished "2024-01-05T14:20:00Z"^^xsd:dateTime .
+
+ex:p2 a schema:Product ;
+    schema:name "Oud Wood" ;
+    schema:brand "Tom Ford" ;
+    schema:category "Unisex" ;
+    schema:description "Rare, exotic, distinctive." ;
+    schema:review ex:r2 .
+
+ex:r2 a schema:Review ;
+    schema:author [ a schema:Person ; schema:name "Sarah C." ] ;
+    schema:reviewRating [ 
+        a schema:Rating ; 
+        schema:ratingValue "4.2"^^xsd:decimal 
+    ] ;
+    schema:reviewBody "Very nice woody smell, but performance could be better." ;
+    schema:datePublished "2024-02-20T09:45:00Z"^^xsd:dateTime .
+
+ex:p3 a schema:Product ;
+    schema:name "Naxos" ;
+    schema:brand "Xerjoff" ;
+    schema:category "Unisex" ;
+    schema:description "A tribute to the grandeur and glamour of our home country." ;
+    schema:review ex:r3 .
+
+ex:r3 a schema:Review ;
+    schema:author [ a schema:Person ; schema:name "Liam T." ] ;
+    schema:reviewRating [ 
+        a schema:Rating ; 
+        schema:ratingValue "4.8"^^xsd:decimal 
+    ] ;
+    schema:reviewBody "Honey, tobacco, lavender. Extremely long lasting and luxurious." ;
+    schema:datePublished "2024-03-15T11:00:00Z"^^xsd:dateTime .
+
+ex:p4 a schema:Product ;
+    schema:name "Layton" ;
+    schema:brand "Parfums de Marly" ;
+    schema:category "Men" ;
+    schema:description "A highly concentrated olfactory composition with an intense and refined character." ;
+    schema:review ex:r4 .
+
+ex:r4 a schema:Review ;
+    schema:author [ a schema:Person ; schema:name "Ethan P." ] ;
+    schema:reviewRating [ 
+        a schema:Rating ; 
+        schema:ratingValue "4.7"^^xsd:decimal 
+    ] ;
+    schema:reviewBody "Apple, vanilla, cardamom. Smells like a rich apple pie. Huge compliment getter." ;
+    schema:datePublished "2024-04-10T16:30:00Z"^^xsd:dateTime .
+
+ex:p5 a schema:Product ;
+    schema:name "Tobacco Vanille" ;
+    schema:brand "Tom Ford" ;
+    schema:category "Unisex" ;
+    schema:description "Opulent, warm, iconic." ;
+    schema:review ex:r5 .
+
+ex:r5 a schema:Review ;
+    schema:author [ a schema:Person ; schema:name "Chloe W." ] ;
+    schema:reviewRating [ 
+        a schema:Rating ; 
+        schema:ratingValue "4.6"^^xsd:decimal 
+    ] ;
+    schema:reviewBody "Perfect for winter. The vanilla and tobacco blend is just incredibly warm." ;
+    schema:datePublished "2024-01-25T14:45:00Z"^^xsd:dateTime .

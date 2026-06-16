@@ -1,0 +1,16 @@
+{
+  "name": "perfume-mcp-project",
+  "version": "1.0.0",
+  "description": "Perfume Review Platform using MCP and multiple Data Servers",
+  "scripts": {
+    "start": "concurrently \"npm run start:json\" \"npm run start:graphql\" \"npm run start:mcp-server\" \"npm run start:mcp-client\" \"npm run start:frontend\"",
+    "start:json": "cd json-server && npm start",
+    "start:graphql": "cd graphql-server && npm start",
+    "start:mcp-server": "cd mcp-server && npm start",
+    "start:mcp-client": "cd mcp-client && npm start",
+    "start:frontend": "cd frontend && npx serve -p 8081"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

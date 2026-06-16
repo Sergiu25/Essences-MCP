@@ -1,0 +1,14 @@
+{
+  "name": "perfume-graphql-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@apollo/server": "^4.10.0",
+    "axios": "^1.15.1",
+    "graphql": "^16.8.1"
+  }
+}

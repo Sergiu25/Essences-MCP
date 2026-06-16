@@ -1,0 +1,86 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Sauvage",
+      "brand": "Dior",
+      "category": "Men",
+      "price": 120.5,
+      "description": "A radically fresh composition, dictated by a name that has the ring of a manifesto."
+    },
+    {
+      "id": "2",
+      "name": "Bleu de Chanel",
+      "brand": "Chanel",
+      "category": "Men",
+      "price": 140,
+      "description": "A woody aromatic fragrance for the man who defies convention."
+    },
+    {
+      "id": "3",
+      "name": "Acqua di Gio",
+      "brand": "Giorgio Armani",
+      "category": "Men",
+      "price": 95,
+      "description": "A resolutely masculine fragrance born from the sea, the sun, the earth, and the breeze of a Mediterranean island."
+    },
+    {
+      "id": "4",
+      "name": "Eros",
+      "brand": "Versace",
+      "category": "Men",
+      "price": 105,
+      "description": "Love, passion, beauty, and desire are the key concepts behind the new men's fragrance by Versace."
+    },
+    {
+      "id": "5",
+      "name": "Fahrenheit",
+      "brand": "Dior",
+      "category": "Men",
+      "price": 110,
+      "description": "A unique and contrasting signature, with a powerful enchanting trail. Fresh Sicilian Mandarin notes, and the surprising combination of masculine Wood and Leather."
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "productId": "1",
+      "authorName": "John Doe",
+      "ratingValue": 4.5,
+      "reviewBody": "Awesome fresh scent, lasts very long on my skin.",
+      "datePublished": "2024-01-10T10:00:00Z"
+    },
+    {
+      "id": "2",
+      "productId": "3",
+      "authorName": "Michael Scott",
+      "ratingValue": 4,
+      "reviewBody": "A classic aquatic fragrance. Perfect for summer.",
+      "datePublished": "2024-05-12T15:30:00Z"
+    },
+    {
+      "id": "3",
+      "productId": "5",
+      "authorName": "Dwight Schrute",
+      "ratingValue": 5,
+      "reviewBody": "Smells like a mechanic's garage in the best possible way. Extremely masculine.",
+      "datePublished": "2024-06-01T09:15:00Z"
+    },
+    {
+      "id": "6d554526-b52c-4898-ab85-24922b45c32d",
+      "productId": "1",
+      "authorName": "Mihai",
+      "ratingValue": 5,
+      "reviewBody": "Un parfum extraordinar și foarte persistent!",
+      "datePublished": "2026-05-15T10:00:00Z"
+    },
+    {
+      "id": "6716290b-c282-44df-8b20-c86a604ce7d7",
+      "productId": "1",
+      "authorName": "Ioana",
+      "ratingValue": 4.8,
+      "reviewBody": "Este unic și seducător",
+      "datePublished": "2026-05-15T12:00:00Z"
+    }
+  ]
+}
